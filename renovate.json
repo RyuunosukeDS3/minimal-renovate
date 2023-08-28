@@ -1,5 +1,6 @@
 {
          "onboarding": false,
+         "requireConfig": "optional",
          "automerge": false,
          "autodiscover": false,
          "branchNameStrict": true,
@@ -13,6 +14,7 @@
              "matchPackagePatterns": ["*"],
              "groupName": "all dependencies",
              "groupSlug": "all-dependencies"
-         }
-         ]
+           }
+         ],
+         "hostRules": []
        }
