@@ -8,7 +8,6 @@
          "prConcurrentLimit": 0,
          "separateMajorMinor": false,
          "separateMinorPatch": false,
-         "repositories": ["bpm/sicredi-826414-bpm-controle-atas-backend"],
          "packageManagers": ["pip", "npm", "yarn", "nuget", "gomod", "pub", "maven"],
          "packageRules": [
            {
