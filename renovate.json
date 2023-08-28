@@ -8,7 +8,6 @@
          "prConcurrentLimit": 0,
          "separateMajorMinor": false,
          "separateMinorPatch": false,
-         "packageManagers": ["pip", "npm", "yarn", "nuget", "gomod", "pub", "maven"],
          "packageRules": [
            {
              "matchPackagePatterns": ["*"],
