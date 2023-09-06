@@ -48,7 +48,7 @@
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>7.0.0.jre8</version>
+            <version>12.4.1.jre11</version>
         </dependency>
 
         <dependency>
@@ -89,7 +89,7 @@
                     <plugin>
                         <groupId>com.spotify</groupId>
                         <artifactId>dockerfile-maven-plugin</artifactId>
-                        <version>1.4.10</version>
+                        <version>1.4.13</version>
                         <executions>
                             <execution>
                                 <id>default</id>
