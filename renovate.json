@@ -14,7 +14,59 @@
              "matchPackagePatterns": ["*"],
              "groupName": "all dependencies",
              "groupSlug": "all-dependencies"
-           }
+           },
+           {
+            "matchPackagePrefixes": ["@angular"],
+            "allowedVersions": "<9"
+          },
+          {
+            "matchPackagePrefixes": ["@codemirror"],
+            "allowedVersions": "<0.19"
+          },
+          {
+            "matchPackageNames": ["primeng"],
+            "allowedVersions": "<9"
+          },
+          {
+            "matchPackageNames": ["typescript"],
+            "allowedVersions": "<3"
+          },
+          {
+            "matchPackageNames": ["zone.js"],
+            "allowedVersions": "<0.10"
+          },
+          {
+            "matchPackageNames": ["cropperjs"],
+            "allowedVersions": "<1"
+          },
+          {
+            "matchPackageNames": ["flag-icons"],
+            "allowedVersions": "<6"
+          },
+          {
+            "matchPackageNames": ["bignumber.js"],
+            "allowedVersions": "<9"
+          },
+          {
+            "matchPackageNames": ["@fortawesome/fontawesome-pro"],
+            "allowedVersions": "<5"
+          },
+          {
+            "matchPackageNames": ["@ngx-translate/core"],
+            "allowedVersions": "<12.1"
+          },
+          {
+            "matchPackageNames": ["@ngx-translate/http-loader"],
+            "allowedVersions": "<5.0"
+          },
+          {
+            "matchPackageNames": ["@lezer/generator"],
+            "allowedVersions": "<0.15"
+          },
+          {
+            "matchPackageNames": ["angular2-hotkeys"],
+            "allowedVersions": "<2"
+          }
          ],
          "hostRules": []
        }
