@@ -1,0 +1,20 @@
+{
+         "onboarding": false,
+         "requireConfig": "optional",
+         "automerge": false,
+         "autodiscover": false,
+         "branchNameStrict": true,
+         "branchConcurrentLimit": 0,
+         "prHourlyLimit": 0,
+         "prConcurrentLimit": 0,
+         "separateMajorMinor": false,
+         "separateMinorPatch": false,
+         "packageRules": [
+           {
+             "matchPackagePatterns": ["*"],
+             "groupName": "all dependencies",
+             "groupSlug": "all-dependencies"
+           }
+         ],
+         "hostRules": []
+       }
